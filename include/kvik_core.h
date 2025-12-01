@@ -7,9 +7,9 @@ namespace kv {
     std::string get_version();
 }
 
-class KVickCore {
+class kvikCore {
 public:
-    KVickCore();
+    kvikCore();
     bool set(const std::string& key, const std::string& value);
     std::string get(const std::string& key) const;
     bool del(const std::string& key);

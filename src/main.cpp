@@ -1,10 +1,10 @@
 #include <iostream>
-#include "kvick_core.h"
+#include "kvik_core.h"
 
 int main() {
     std::cout << kv::get_version() << std::endl;
 
-    KVickCore store;
+    kvikCore store;
 
     store.set("user", "disha");
     
